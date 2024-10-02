@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My English Dictionary</title>
+    
+</head>
+<body>
+    <h1 class="myheading">My English Dictionary.</h1>
+    <div class="container">
+        <div class="search-form">
+            <input type="text"; placeholder="Enter a word here" >
+            <button>Search</button>
+            <div class="dictionary-app">
+                <div class="card">
+                    <div  class="property">
+                        <span>Word:</span>
+                        <span id="word"></span>
+                    </div>
+                    <div class="property">
+                        <span>Phonetics:</span>
+                        <span id="Phonetics"></span>
+                    </div>
+                    <div class="property">
+                        <span >Audio:</span>
+                        <audio controls src="" id="audio"></audio>
+                    </div> 
+                    <div class="property">
+                        <span>Definition:</span>
+                        <span id="definition"></span>
+                    </div>
+                    <div class="property">
+                        <span>Example:</span>
+                        <span id="example"></span>
+                    </div>
+                    <div class="property">
+                        <span>Parts of speech:</span>
+                        <span id="Parts"></span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
