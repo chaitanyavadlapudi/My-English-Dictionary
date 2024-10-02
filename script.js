@@ -24,7 +24,7 @@ async function fetchandCreateCard() {
     }
 
     let PartsOfspeechArray =[]
-    for(let i=0; i<data.meanings.length-1; i++){
+    for(let i=0; i<data.meanings.length; i++){
         PartsOfspeechArray.push(data.meanings[i].partOfSpeech);
     }
 
